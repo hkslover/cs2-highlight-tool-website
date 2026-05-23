@@ -314,6 +314,12 @@ onUnmounted(() => {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-actions .btn-ghost {
+  gap: 10px;
+  padding: 12px 24px;
 }
 
 .hero-right {
